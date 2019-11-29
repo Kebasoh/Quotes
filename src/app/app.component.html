@@ -1,10 +1,10 @@
-<div>
+<div class="container">
   <h1>My Quotes</h1>
   <hr>
   <ul>
       <li *ngFor='let Quotes of quote'>
-        {{Quote.name}}
+        {{Quotes.name}}
       </li>
   </ul>
-  <p *ngIf='Quote.length > 5'>Your Quotes are too many</p>
+  <!-- <p *ngIf='Quote.length > 5'>Your Quotes are too many</p> -->
 </div>
