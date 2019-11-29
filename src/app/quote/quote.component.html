@@ -1,14 +1,11 @@
 <div class="container">
-    <h1>My Quotes</h1>
-
-    <hr>
-    <ul>
-      <li *ngFor='let quote of quote'>
-        {{quote.name}}<br>
-        <button (click)='toggleDetail(i)'>AUTHOR</button>
-        <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
-      </li>
-      <app-quote-detail [quote]='quote'></app-quote-detail>
-    </ul>
-    <p *ngIf='quote.length > 5'>You have too many quotes</p>
+<h1>QUOTES</h1>
+<hr>
+<ul>
+  <div *ngFor='let quote of quote;let i = index'>
+    <li>{{quote.name}}</li>
+    <button (click)='toggleDetail(i)'>INFO</button>
+    <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail>
   </div>
+</ul>
+</div>
