@@ -1,8 +1,8 @@
 <div class="jumbotron text-center">
-<h1>MY ALL TIME QUOTES</h1>
+<h1>MY ALL TIME QUOTES.</h1>
 </div>
 <div class="container">
-  <h1>MY QUOTE</h1>
+  <h1>MY QUOTES.</h1>
   <hr>
 
   <div class="row">
@@ -11,7 +11,7 @@
         <div>
           <h6 class="card-body" id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h6>
           <button (click)='toggleDetail(i)' class="btn btn-primary">SEE AUTHOR</button>
-        </div><br><br>
+        </div><br>
 
         <div *ngIf='quote.showDescription'>
           <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
@@ -22,5 +22,5 @@
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
   </div>
-  <!-- <p *ngIf='quote.length > 5'>You have too many quotes</p> -->
+
 </div>
