@@ -27,9 +27,7 @@ export class QuoteComponent implements OnInit {
       new Quote(1,'Life is drama play your part.','Ongati kebaso',new Date(2019,9,14)),
       new Quote(2,'The problem with Africa is that people with ideas have no powers and people with powers have no ideas',' PLO Lumumba',new Date(2019,9,14)),
       new Quote(3,'There is no hygiene in African plitics','Plo Lumumba',new Date(2019,9,14)),
-      new Quote(4,'The African founder fathers.','Wiliam john',new Date(2019,9,14)),
-      new Quote(5,'My mentor Dr Kwame Nkrumah','Kwame',new Date(2019,9,14)),
-      new Quote(6,'Seek ye the kingdom of African politics.','Kwame Nkuruma',new Date(2019,9,14)),
+      
     ];
     
   } 
