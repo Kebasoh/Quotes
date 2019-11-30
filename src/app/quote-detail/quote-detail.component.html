@@ -1,6 +1,17 @@
-<p>{{quote.description}}</p>
-<p>This quote will be complete in {{quote.completeDate|dateCount}} days</p>
-<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete quote</button>
+<div class="steve">
+        <p>
+            {{quote.description}}
+        </p>
+        <p>This quote will be completed in {{quote.completeDate|dateCount}} days</p>
+        <div class="icon">
+                <i class="fa fa-thumbs-up btn btn-success" aria-hidden="true" (click)="likeButtonClick()"></i>&nbsp;
+                <i class="fa fa-thumbs-down btn  btn-danger"  aria-hidden="true" (click)="dislikeButtonClick()"></i>
+            <br><br>
+        <button (click)= 'quoteComplete(true)' class="btn btn-outline-danger">Delete</button>
+        <br>
+        <br>
+        </div>
+        </div>
 
 
 
