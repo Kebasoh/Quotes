@@ -10,7 +10,7 @@
       <div *ngFor='let quote of quote;let i = index'>
         <div>
           <h6 class="card-body" id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h6>
-          <button (click)='toggleDetail(i)' class="btn btn-primary">SEE AUTHOR</button>
+          <button (click)='toggleDetail(i)' class="btn btn-primary">EXPLORE</button>
         </div><br>
 
         <div *ngIf='quote.showDescription'>

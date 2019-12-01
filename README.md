@@ -12,7 +12,7 @@
  - Angular-
 
 ## BDD.
-
+ <img src="src/assets/quotes.png">
 
 
 ## Project's live Link

@@ -24,9 +24,9 @@ export class QuoteComponent implements OnInit {
 
   constructor(){
     this.quote=[
-      new Quote(1,'Life is drama play your part.','Ongati kebaso',new Date(2019,9,14)),
-      new Quote(2,'The problem with Africa is that people with ideas have no powers and people with powers have no ideas',' PLO Lumumba',new Date(2019,9,14)),
-      new Quote(3,'There is no hygiene in African plitics','Plo Lumumba',new Date(2019,9,14)),
+      new Quote(1,'Life is drama play your part.','Ongati kebaso',new Date(2019,5,14)),
+      new Quote(2,'The problem with Africa is that people with ideas have no powers and people with powers have no ideas',' PLO Lumumba',new Date(2019,1,14)),
+      new Quote(3,'There is no hygiene in African plitics','Plo Lumumba',new Date(2019,3,14)),
       
     ];
     
