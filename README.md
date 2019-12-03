@@ -5,7 +5,7 @@
 ## Author information.
  - KEBASO STEVE ONGATI
 ## Setup instructions 
-
+ -
 ## Technology Used
  - HTML-We used html for displaying the content.
  - CSS-We used css and bootstrap for styling the front-end of the website and making the landing page.
@@ -13,10 +13,21 @@
 
 ## BDD.
  <img src="src/assets/quotes.png">
-
-
+ -In the form we have the authors input and the quotes input and also you can upvote and downvote the project.When one put a quote it must desplay when submitted and indicate the time it has been posted.
+ 
+## Development Process
+ - To fix a bug or enhance an existing module, follow these steps:
+ - Fork the repo
+ - Create a new branch (git checkout -b improve-feature)
+ - Make the appropriate changes in the files
+ - Add changes to reflect the changes made
+ - Commit your changes (git commit -am 'Improve feature')
+ - Push to the branch (git push origin improve-feature)
+ - Create a Pull Request
 ## Project's live Link
- -
+
+ - https://kebasoh.github.io/Quotes/
+
 ## Contact information.
  - Email: ongatikebaso@gmail.com.
  - Phone-No: 0797657305/0795663799.
